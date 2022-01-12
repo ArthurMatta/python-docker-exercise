@@ -14,16 +14,8 @@ This exercise assumes you are familiarized with docker and pipeline concepts. Al
 
 1. Clone this repository: `git clone https://github.com/ArthurMatta/python-docker-exercise.git`
 2. Move to the new folder created for this repository: `cd python-docker-exercise`
-3. If you want to run the iris dataset project:
-   - **Note:** Although not strictly necessary, we suggest you create a virtual environment so that the python packages/versions you install for this exercise don't conflict with other packages/versions you might already have installed. For this purpose, you can use python's virtualenv library:
-        ```
-        pip install --user virtualenv
-        python -m venv venv
-        ./venv/Scripts/activate
-        ```
-
-    - Install the base requirements: `pip install -r requirements.txt`
-    - Initialize the iris dataset example: `kedro new --config=kedro.config.yaml --starter=pandas-iris`
+3. Install the base requirements: `pip install -r requirements.txt`
+4. Initialize the iris dataset example: `kedro new --config=kedro.config.yaml --starter=pandas-iris`
    
 
 ## Exercise
